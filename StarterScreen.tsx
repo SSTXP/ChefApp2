@@ -28,7 +28,7 @@ const StarterScreen = ({ navigation }: { navigation: any }) => {
             <View style={styles.dishContainer}>
               <Text style={styles.dishName}>{item.name}</Text>
               <Text style={styles.description}>{item.description}</Text>
-              <Text style={styles.price}>{item.price}</Text>
+              <Text style={styles.price}>R{item.price}</Text>
               <View style={styles.separator} />
             </View>
           )}
